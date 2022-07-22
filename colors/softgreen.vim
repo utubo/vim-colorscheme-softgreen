@@ -221,8 +221,8 @@ exe 'hi DiffText'      s:fg s:n4 s:bg s:y2 s:none
 " -------------------
 exe 'hi Pmenu'         s:fg s:b3 s:bg s:n1
 hi! link PmenuSel Cursor
-exe 'hi PmenuSbar'     s:bg s:b1
-exe 'hi PmenuThumb'    s:bg s:b3
+exe 'hi PmenuSbar'     s:bg s:n2
+exe 'hi PmenuThumb'    s:bg s:n1
 
 " ------------
 " - Spelling -
