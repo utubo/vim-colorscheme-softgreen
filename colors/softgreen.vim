@@ -153,7 +153,7 @@ exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
 exe 'hi Title'         s:fg s:b3 s:bg s:n0 s:bold
 exe 'hi ModeMsg'       s:fg s:n3 s:bg s:n0 s:none
 exe 'hi MoreMsg'       s:fg s:n2 s:bg s:n0 s:none
-hi! link WildMenu Visual
+hi! link WildMenu Cursor
 
 " --------------
 " - Visual aid -
@@ -219,7 +219,7 @@ exe 'hi DiffText'      s:fg s:n3 s:bg s:y2 s:none
 " -------------------
 " - Completion menu -
 " -------------------
-exe 'hi Pmenu'         s:fg s:n1 s:bg s:b3
+exe 'hi Pmenu'         s:fg s:b3 s:bg s:n1
 hi! link PmenuSel Cursor
 exe 'hi PmenuSbar'     s:bg s:b1
 exe 'hi PmenuThumb'    s:bg s:b3
@@ -275,5 +275,4 @@ exe 'hi GitGutterDelete' s:fg s:r4 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
-
 
