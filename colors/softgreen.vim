@@ -37,7 +37,7 @@ if has('gui_running') || &termguicolors
   let s:b1 = '#005faf'
   let s:b2 = '#119eb7'
   let s:b3 = '#93c4d7'
-  let s:b4 = '#0d86ff'
+  let s:b4 = '#5fafd7'
   let s:b9 = '#0087af'
   let s:g1 = '#5f8787'
   let s:g2 = '#87af87'
@@ -47,7 +47,7 @@ if has('gui_running') || &termguicolors
   let s:y1 = '#878700'
   let s:y2 = '#aba744' " not used
   let s:y3 = '#e5cf88'
-  let s:y4 = '#ffd74d'
+  let s:y4 = '#ffff87'
   let s:y9 = '#f09933'
   let s:r1 = '#573844'
   let s:r2 = '#ab485f'
@@ -69,7 +69,7 @@ else
   let s:b1 = '25'
   let s:b2 = '38'
   let s:b3 = '110'
-  let s:b4 = '33'
+  let s:b4 = '74'
   let s:b9 = '31'
   let s:g1 = '66'
   let s:g2 = '108'
@@ -79,7 +79,7 @@ else
   let s:y1 = '100'
   let s:y2 = '143' " not used
   let s:y3 = '185'
-  let s:y4 = '227'
+  let s:y4 = '228'
   let s:y9 = '142'
   let s:r1 = '239'
   let s:r2 = '131' " not used
