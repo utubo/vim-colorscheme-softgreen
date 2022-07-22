@@ -37,7 +37,7 @@ if has('gui_running') || &termguicolors
   let s:b1 = '#005f87'
   let s:b2 = '#119eb7'
   let s:b3 = '#93c4d7'
-  let s:b4 = '#5fafd7'
+  let s:b4 = '#87d7d7'
   let s:b9 = '#0087af'
   let s:g1 = '#5f8787'
   let s:g2 = '#87af87'
@@ -69,7 +69,7 @@ else
   let s:b1 = '24'
   let s:b2 = '38'
   let s:b3 = '110'
-  let s:b4 = '74'
+  let s:b4 = '116'
   let s:b9 = '31'
   let s:g1 = '66'
   let s:g2 = '108'
@@ -275,4 +275,3 @@ exe 'hi GitGutterDelete' s:fg s:r4 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
-
