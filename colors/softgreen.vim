@@ -1,4 +1,4 @@
-" * soft green *
+" * softgreen *
 " Author: utubo
 " Notes:
 " Thx: This is based on https://github.com/ggalindezb/vim_colorscheme_template
