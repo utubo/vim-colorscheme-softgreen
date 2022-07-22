@@ -141,7 +141,7 @@ exe 'hi TabLineSel'    s:fg s:b3 s:bg s:n0 s:bold
 " - File Navigation / Searching -
 " -------------------------------
 exe 'hi Directory'     s:fg s:g4
-exe 'hi Search'        s:fg s:n0 s:bg s:g4 s:none
+exe 'hi Search'        s:fg s:g3 s:bg s:g1 s:none
 hi! link IncSearch Cursor
 
 " -----------------
@@ -214,7 +214,7 @@ exe 'hi PreProc' s:fg s:b3
 exe 'hi DiffAdd'       s:fg s:b3 s:bg s:b1
 exe 'hi DiffDelete'    s:fg s:r2 s:bg s:r1
 exe 'hi DiffChange'    s:fg s:y3 s:bg s:y1
-exe 'hi DiffText'      s:fg s:n3 s:bg s:y2 s:none
+exe 'hi DiffText'      s:fg s:n4 s:bg s:y2 s:none
 
 " -------------------
 " - Completion menu -
