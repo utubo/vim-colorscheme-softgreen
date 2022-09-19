@@ -131,7 +131,7 @@ exe 'hi Folded'        s:fg s:n2 s:bg s:n0
 " -------------------------
 " - Window/Tab delimiters -
 " -------------------------
-exe 'hi VertSplit'     s:fg s:n3 s:bg s:n3
+exe 'hi VertSplit'     s:fg s:n1 s:bg s:n1
 exe 'hi ColorColumn'   s:fg s:n2 s:bg s:n1
 exe 'hi TabLine'       s:fg s:n3 s:bg s:n1 s:none
 exe 'hi TabLineFill'   s:fg s:n1 s:bg s:n1 s:none
@@ -147,8 +147,8 @@ hi! link IncSearch Cursor
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe 'hi StatusLine'    s:fg s:n2 s:bg s:n0
-exe 'hi StatusLineNC'  s:fg s:n2 s:bg s:n3
+exe 'hi StatusLine'    s:fg s:n1 s:bg s:n3
+exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n2
 exe 'hi StatusLineTerm'    s:fg s:n0 s:bg s:g4
 exe 'hi StatusLineTermNC'  s:fg s:n0 s:bg s:g3
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
