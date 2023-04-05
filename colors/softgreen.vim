@@ -276,6 +276,6 @@ call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:n1
 exe 'hi GitGutterChange' s:fg s:y4 s:bg s:n1
 exe 'hi GitGutterDelete' s:fg s:r4 s:bg s:n1
-h! link diffAdded DiffAdd
+hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
