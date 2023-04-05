@@ -241,7 +241,7 @@ hi! link Terminal Normal
 if s:term ==# 'gui'
   let g:terminal_ansi_colors = [
   \ s:n1, s:r2, s:g2, s:y2, s:b2, s:m2, s:c2, s:n3,
-  \ s:n0, s:r4, s:g4, s:y4, s:b4, s:m4, s:c4, s:n4
+  \ s:n2, s:r4, s:g4, s:y4, s:b4, s:m4, s:c4, s:n4
   \ ]
 endif
 
@@ -276,6 +276,6 @@ call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:n1
 exe 'hi GitGutterChange' s:fg s:y4 s:bg s:n1
 exe 'hi GitGutterDelete' s:fg s:r4 s:bg s:n1
-hi! link diffAdded DiffAdd
+h! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
