@@ -107,6 +107,7 @@ let s:style  = has('gui_running') ? 'gui=' : 'cterm='
 let s:none   = s:style.'NONE'
 let s:bold   = s:style.'bold'
 let s:italic = s:style.'italic'
+let s:reverse = s:style.'reverse'
 let s:underline = s:style.'underline'
 let s:undercurl = s:style.'undercurl'
 
@@ -147,8 +148,8 @@ hi! link IncSearch Cursor
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe 'hi StatusLine'    s:fg s:n1 s:bg s:n3
-exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n2
+exe 'hi StatusLine'    s:fg s:n1 s:bg s:n3 s:reverse
+exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n2 s:reverse
 exe 'hi StatusLineTerm'    s:fg s:n4 s:bg s:m4
 exe 'hi StatusLineTermNC'  s:fg s:n3 s:bg s:m2
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
