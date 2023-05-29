@@ -119,7 +119,7 @@ exe 'hi Cursor'        s:fg s:n0 s:bg s:b4
 exe 'hi CursorIM'      s:fg s:n0 s:bg s:y4
 exe 'hi CursorLine'    s:bg 'NONE' s:underline
 exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
-exe 'hi CursorLineNR'  s:fg s:n4 s:bg s:n1 s:none
+exe 'hi CursorLineNR'  s:fg s:b4 s:bg s:g1 s:none
 
 " -----------------
 " - Number column -
@@ -177,8 +177,8 @@ hi! link SpecialKey NonText
 " ------------------
 " - Variable types -
 " ------------------
-exe 'hi Function'      s:fg s:b2
-exe 'hi Identifier '   s:fg s:n3
+exe 'hi Function'      s:fg s:b3
+exe 'hi Identifier '   s:fg s:b2 s:none
 exe 'hi Constant'      s:fg s:b2
 exe 'hi String'        s:fg s:b3 s:bg s:n1
 exe 'hi Character'     s:fg s:b2
@@ -189,7 +189,7 @@ hi! link Float Number
 " -----------------------
 " - Language constructs -
 " -----------------------
-exe 'hi Statement'     s:fg s:b3
+exe 'hi Statement'     s:fg s:b3 s:bold
 exe 'hi Conditional'   s:fg s:b3
 exe 'hi Repeat'        s:fg s:b3
 exe 'hi Label'         s:fg s:b3 s:bold
