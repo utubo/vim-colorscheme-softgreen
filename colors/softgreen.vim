@@ -142,8 +142,9 @@ exe 'hi TabLineSel'    s:fg s:b3 s:bg s:n0 s:bold
 " - File Navigation / Searching -
 " -------------------------------
 exe 'hi Directory'     s:fg s:g4
-exe 'hi Search'        s:fg s:g4 s:bg s:n0 s:reverse
-hi! link IncSearch Cursor
+exe 'hi Search'        s:fg s:n0 s:bg s:g1 s:none
+exe 'hi CurSearch'     s:fg s:n0 s:bg s:g4 s:bold
+hi! link IncSearch CurSearch
 
 " -----------------
 " - Prompt/Status -
