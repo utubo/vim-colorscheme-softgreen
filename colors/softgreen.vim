@@ -226,8 +226,8 @@ exe 'hi DiffText'      s:fg s:n4 s:bg s:y2 s:none
 exe 'hi Pmenu'         s:fg s:b3 s:bg s:n1
 hi! link PmenuSel Cursor
 exe 'hi PmenuExtra'    s:fg s:n2 s:bg s:n1
-exe 'hi PmenuSbar'     s:bg s:n2
-exe 'hi PmenuThumb'    s:bg s:n1
+exe 'hi PmenuSbar'     s:bg s:n1
+exe 'hi PmenuThumb'    s:bg s:n2
 
 " ------------
 " - Spelling -
@@ -276,9 +276,9 @@ endif
 call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 
 " GitGutter
-exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:b1
-exe 'hi GitGutterChange' s:fg s:y4 s:bg s:y1
-exe 'hi GitGutterDelete' s:fg s:r4 s:bg s:r1
+exe 'hi GitGutterAdd' s:fg s:b1 s:bg s:b3
+exe 'hi GitGutterChange' s:fg s:y1 s:bg s:y2
+exe 'hi GitGutterDelete' s:fg s:r1 s:bg s:r2
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
