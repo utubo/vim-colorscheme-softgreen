@@ -97,8 +97,8 @@ exe 'hi FoldColumn' s:dc s:e s:dd s:d
 exe 'hi Folded' s:dc s:e s:dd s:c
 exe 'hi VertSplit' s:dc s:d s:dd s:d
 exe 'hi ColorColumn' s:dc s:e s:dd s:d
-exe 'hi TabLine' s:dc s:e s:dd s:g s:dg
-exe 'hi TabLineFill' s:dc s:g s:dd s:g s:dg
+exe 'hi TabLine' s:dc s:e s:dd s:d s:dg
+exe 'hi TabLineFill' s:dc s:e s:dd s:d s:dg
 exe 'hi TabLineSel' s:dc s:j s:dd s:c s:dh
 exe 'hi Directory' s:dc s:bf
 exe 'hi Search' s:dc s:c s:dd s:bc s:dg
