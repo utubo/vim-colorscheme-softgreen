@@ -152,9 +152,14 @@ exe 'hi DiffAdd' s:dc s:j s:dd s:h
 exe 'hi DiffDelete' s:dc s:ce s:dd s:cd
 exe 'hi DiffChange' s:dc s:ca s:dd s:bi
 exe 'hi DiffText' s:dc s:g s:dd s:bj s:dg
-exe 'hi Pmenu' s:dc s:j s:dd s:d
-hi! link PmenuSel Cursor
-exe 'hi PmenuExtra' s:dc s:e s:dd s:d
+exe 'hi Pmenu' s:dc s:f s:dd s:h
+exe 'hi PmenuSel' s:dc s:c s:dd s:ba
+exe 'hi PmenuKind' s:dc s:be s:dd s:h
+exe 'hi PmenuKindSel' s:dc s:bc s:dd s:ba
+exe 'hi PmenuMatch' s:dc s:ca s:dd s:h
+exe 'hi PmenuMatchSel' s:dc s:bi s:dd s:ba
+exe 'hi PmenuExtra' s:dc s:ba s:dd s:h
+exe 'hi PmenuExtraSel' s:dc s:i s:dd s:ba
 exe 'hi PmenuSbar' s:dd s:d
 exe 'hi PmenuThumb' s:dd s:e
 exe 'hi SpellBad' s:dc s:cf s:dd s:cd s:de s:cg s:eb
