@@ -120,6 +120,7 @@ exe 'hi CursorIM'      s:fg s:n0 s:bg s:y4
 exe 'hi CursorLine'    s:bg 'NONE' s:underline
 exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
 exe 'hi CursorLineNR'  s:fg s:b4 s:bg s:g1 s:none
+hi! link lCursor CursorIM
 
 " -----------------
 " - Number column -

@@ -91,6 +91,7 @@ exe 'hi CursorIM' s:dc s:c s:dd s:cb
 exe 'hi CursorLine' s:dd 'NONE' s:ea
 exe 'hi LineNr' s:dc s:e s:dd s:d
 exe 'hi CursorLineNR' s:dc s:ba s:dd s:bc s:dg
+hi! link lCursor CursorIM
 exe 'hi CursorColumn' s:dd s:h
 exe 'hi SignColumn' s:dc s:bf s:dd s:d
 exe 'hi FoldColumn' s:dc s:e s:dd s:d
