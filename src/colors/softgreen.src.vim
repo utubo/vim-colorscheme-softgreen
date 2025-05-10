@@ -115,8 +115,8 @@ let s:undercurl = s:style.'undercurl'
 " - Base -
 " --------
 exe 'hi Normal'        s:fg s:n3 s:bg s:n0
-exe 'hi Cursor'        s:fg s:n0 s:bg s:b4
-exe 'hi CursorIM'      s:fg s:n0 s:bg s:y4
+exe 'hi Cursor'        s:fg s:n0 s:bg s:b4 s:none
+exe 'hi CursorIM'      s:fg s:n0 s:bg s:y4 s:none
 exe 'hi CursorLine'    s:bg 'NONE' s:underline
 exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
 exe 'hi CursorLineNR'  s:fg s:b4 s:bg s:g1 s:none
@@ -154,16 +154,16 @@ exe 'hi StatusLine'    s:fg s:n1 s:bg s:n3 s:reverse
 exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n2 s:reverse
 exe 'hi StatusLineTerm'    s:fg s:n4 s:bg s:m4
 exe 'hi StatusLineTermNC'  s:fg s:n3 s:bg s:m2
-exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
-exe 'hi Title'         s:fg s:b3 s:bg s:n0 s:bold
-exe 'hi ModeMsg'       s:fg s:n3 s:bg s:n0 s:none
-exe 'hi MoreMsg'       s:fg s:n2 s:bg s:n0 s:none
+exe 'hi Question'      s:fg s:y4 s:bg 'NONE' s:none
+exe 'hi Title'         s:fg s:b3 s:bg 'NONE' s:bold
+exe 'hi ModeMsg'       s:fg s:n3 s:bg 'NONE' s:none
+exe 'hi MoreMsg'       s:fg s:n2 s:bg 'NONE' s:none
 hi! link WildMenu Cursor
 
 " --------------
 " - Visual aid -
 " --------------
-exe 'hi MatchParen'    s:fg s:b4 s:bg s:n0 s:bold
+exe 'hi MatchParen'    s:fg s:b4 s:bg 'NONE' s:bold
 exe 'hi Visual'        s:fg s:n4 s:bg s:b2 s:none
 exe 'hi VisualNOS'     s:fg s:n3 s:bg s:b2 s:none
 exe 'hi NonText'       s:fg s:n1 s:none
@@ -184,7 +184,7 @@ exe 'hi Identifier '   s:fg s:b2 s:none
 exe 'hi Constant'      s:fg s:b2
 exe 'hi String'        s:fg s:b3 s:bg s:n1
 exe 'hi Character'     s:fg s:b2
-exe 'hi Number'        s:fg s:b2
+exe 'hi Number'        s:fg s:b2 s:bg 'NONE'
 hi! link Boolean Number
 hi! link Float Number
 
@@ -239,9 +239,9 @@ exe 'hi PmenuThumb'    s:bg s:n2
 " - Spelling -
 " ------------
 exe 'hi SpellBad'      s:fg s:r3 s:bg s:r1 s:sp s:r4 s:undercurl
-exe 'hi SpellCap'      s:fg s:y3 s:bg s:n0 s:sp s:y4 s:undercurl
-exe 'hi SpellLocal'    s:fg s:g3 s:bg s:n0 s:sp s:g4 s:undercurl
-exe 'hi SpellRare'     s:fg s:b3 s:bg s:n0 s:sp s:b4 s:undercurl
+exe 'hi SpellCap'      s:fg s:y3 s:bg 'NONE' s:sp s:y4 s:undercurl
+exe 'hi SpellLocal'    s:fg s:g3 s:bg 'NONE' s:sp s:g4 s:undercurl
+exe 'hi SpellRare'     s:fg s:b3 s:bg 'NONE' s:sp s:b4 s:undercurl
 
 " ---------------------
 " - Terminal -
